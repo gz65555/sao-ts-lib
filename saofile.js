@@ -18,7 +18,18 @@ module.exports = {
     return [
       {
         type: 'add',
-        files: '**',
+        // Copy and transform all files in `template` folder into output directory
+        files: '**'
+      },
+      {
+        type: 'move',
+        patterns: {
+          gitignore: '.gitignore',
+          'eslintrc.js': '.eslintrc.js',
+          'babel.conf': 'babel.config.js',
+          'prettierrc.js': '.prettierrc.js',
+          'rollup.js': 'rollup.config.js',
+        }
       }
     ]
   },
