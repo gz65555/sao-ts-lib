@@ -1,0 +1,12 @@
+{
+  "name": "sao-ts-lib",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "keywords": [
+    "sao-generator",
+    "sao",
+    "scaffolding"
+  ]
+}
