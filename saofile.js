@@ -29,6 +29,7 @@ module.exports = {
           'babel.conf': 'babel.config.js',
           'prettierrc.js': '.prettierrc.js',
           'rollup.js': 'rollup.config.js',
+          '_package.json': 'package.json',
         }
       }
     ]
