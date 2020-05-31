@@ -5,6 +5,9 @@
     "saofile.js",
     "template"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
+  },
   "keywords": [
     "sao-generator",
     "sao",
