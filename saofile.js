@@ -21,19 +21,7 @@ module.exports = {
       {
         type: 'add',
         files: '**',
-      },
-      {
-        type: 'move',
-        patterns: {
-          gitignore: '.gitignore',
-          '_package.json': 'package.json',
-        },
-      },
-      {
-        type: 'modify',
-        files: 'package.json',
-        handler: data => require('./lib/update-pkg')(this.answers, data),
-      },
+      }
     ]
   },
   async completed() {

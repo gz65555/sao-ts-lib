@@ -1,7 +1,7 @@
 {
-  "name": "rollup-typescript-babel",
+  "name": "<%= name %>",
   "version": "1.0.0",
-  "description": "",
+  "description": "<%= description %>",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "browser": "dist/index.browser.js",
@@ -22,7 +22,7 @@
   ],
   "keywords": [],
   "author": "",
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
